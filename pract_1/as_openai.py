@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 os.environ.pop("OPENAI_API_KEY", None)
 
 # Завантаження .env
-load_dotenv(dotenv_path="e:/Основи ген. інтел/generative-ai/.env")
+load_dotenv(dotenv_path="e:/Основи ген. інтел/generative-ai/pract_1/.env")
 api_key = os.getenv("MY_OPENAI_API_KEY")
 
 print("🔑 API Key:", api_key)

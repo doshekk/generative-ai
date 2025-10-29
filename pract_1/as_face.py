@@ -2,7 +2,7 @@ from huggingface_hub import HfApi
 from dotenv import load_dotenv
 import os
 
-env_loaded = load_dotenv(dotenv_path="e:/Основи ген. інтел/generative-ai/.env")
+env_loaded = load_dotenv(dotenv_path="e:/Основи ген. інтел/generative-ai/pract_1/.env")
 print("Файл .env завантажено", env_loaded)
 
 api_token = os.getenv("HUGGING_FACE_API_KEY")
